@@ -9,41 +9,60 @@
 </head>
 <body>
     <!-- header Section -->
-<header class="bg-[rgb(255,245,245)] shadow-md">
-  <nav class="flex items-center justify-between px-8 py-4">
-        <!-- Logo -->
-        <div class="flex items-center space-x-3">
-            <img src="src/Logo image.png" alt="LOGO" class="w-30 h-20">
-            <div>
-                <h1 class="text-[rgb(220,20,60)] text-2xl font-bold">ResqMe</h1>
-                <p class="text-[rgb(139,0,0)] text-sm italic font-semibold">Mechanics Reimagined</p>
-            </div>            
+    <header class="bg-[rgb(255,245,245)] shadow-md">
+        <nav class="flex items-center justify-between px-8 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="src/Logo image.png" alt="LOGO" class="w-30 h-20">
+                <div>
+                    <h1 class="text-[rgb(220,20,60)] text-2xl font-bold">ResqMe</h1>
+                    <p class="text-[rgb(139,0,0)] text-sm italic font-semibold">Mechanics Reimagined</p>
+                </div>            
+            </div>
+
+            <!-- Desktop NavLinks -->
+            <ul class="hidden md:flex space-x-8 space-y-1 text-[rgb(139,0,0)] font-medium">
+                <li>
+                    <a href="index.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Home</a>
+                </li>            
+                <!-- dropdown list -->
+                <li class="relative group">
+                    <a href="services.html" 
+                        class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform"> Our Services</a>
+                    <ul class="absolute left-0 mt-2 w-48 bg-white shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 ease-in-out z-10">                
+                        <li>
+                            <a href="mechanics.html" class="block px-4 py-2 text-[rgb(139,0,0)] hover:bg-[rgb(255,245,245)] hover:text-black transition">Mechanics</a>
+                        </li>
+                        <li>
+                            <a href="washers.html" class="block px-4 py-2 text-[rgb(139,0,0)] hover:bg-[rgb(255,245,245)] hover:text-black transition">Car Washers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Contact Us</a>
+                </li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <button id="haMenu" class="md:hidden flex flex-col items-center justify-center w-10 h-10">
+                <div class="block h-1 w-6 mb-1 bg-[rgb(139,0,0)]"></div>
+                <div class="block h-1 w-6 mb-1 bg-[rgb(139,0,0)]"></div>
+                <div class="block h-1 w-6 bg-[rgb(139,0,0)]"></div>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[rgb(255,245,245)] text-[rgb(139,0,0)] flex-col space-y-4 py-4 px-6 shadow-inner">
+            <a href="index.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Home</a>           
+            <div class="flex flex-col space-y-2">
+                <a href="services.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Services</a>
+                <a href="mechanics.html" class="ml-4 hover:text-[rgb(255,69,58)] font-semibold block py-2">- Mechanics</a>
+                <a href="washers.html" class="ml-4 hover:text-[rgb(255,69,58)] font-semibold block py-2">- Car Washers</a>
+            </div>
+            <a href="contact.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Contact</a>
         </div>
+    </header>
 
-
-        <!-- NavLinks -->
-        <ul class="flex space-x-8 space-y-1 text-[rgb(139,0,0)] font-medium">
-            <li>
-                <a href="index.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Home</a>
-            </li>
-            <li>
-                <a href="about.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">About Us</a>
-            </li>
-            <li>
-                <a href="services.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Our Services</a>
-            </li>
-            <li>
-                <a href="mechanics.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Mechanics</a>
-            </li>
-            <li>
-                <a href="washers.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Car Washers</a>
-            </li>
-            <li>
-                <a href="contact.html" class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Contact Us</a>
-            </li>
-        </ul>
-  </nav>
-</header>
 <!-- footer section -->
 <footer class="bg-[rgb(255,245,245)] text-[rgb(139,0,0)] border-t-4 border-[rgb(250,128,114)] py-10 mt-10">
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6">
@@ -56,8 +75,7 @@
         <div>
             <h4 class="text-[rgb(220,20,60)] font-semibold mb-3">Quick Links</h4>
             <ul class="space-y-2">
-                <li><a href="index.html" class="hover:text-[rgb(255,69,58)] hover:underline transition-all duration-300 ease-in-out">Home</a></li>
-                <li><a href="about.html" class="hover:text-[rgb(255,69,58)] hover:underline transition-all duration-300 ease-in-out">About Us</a></li>
+                <li><a href="index.html" class="hover:text-[rgb(255,69,58)] hover:underline transition-all duration-300 ease-in-out">Home</a></li>                
                 <li><a href="services.html" class="hover:text-[rgb(255,69,58)] hover:underline transition-all duration-300 ease-in-out">Our Services</a></li>
                 <li><a href="mechanics.html" class="hover:text-[rgb(255,69,58)] hover:underline transition-all duration-300 ease-in-out">Mechanics</a></li>
                 <li><a href="washers.html" class="hover:text-[rgb(255,69,58)] hover:underline transition-all duration-300 ease-in-out">Car Washers</a></li>
