@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Cain Chebet",
+    "type": "mechanic",
+    "location": "Karen",
+    "rating": 4.8,
+    "status": "available",
+    "image": "src/Mechanic1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Joy Zawadi",
+    "type": "mechanic",
+    "location": "Westlands",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Louis Otieno",
+    "type": "mechanic",
+    "location": "Kiambu road",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kevin Sitati",
+    "type": "mechanic",
+    "location": "Riveroad CBD",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Grace Wamaitha",
+    "type": "mechanic",
+    "location": "Kasarani",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tasneem Mohammed",
+    "type": "mechanic ",
+    "location": "Waiyaki way",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Salahudin Abdi",
+    "type": "mechanic",
+    "location": "Nairobi West",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic7.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Valentina Mwigora",
+    "type": "mechanic",
+    "location": "Juja",
+    "rating": 4.9,
+    "status": "available",
+    "image": "src/Mechanic8.jpg"
+  }
+]

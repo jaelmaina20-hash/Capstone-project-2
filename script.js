@@ -1,6 +1,7 @@
 const hamburgerMenu = document.getElementById('haMenu');
 const mobileMenu = document.getElementById('mobile-menu');
 
+
 hamburgerMenu.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
 });
@@ -17,3 +18,5 @@ const images = [Image1, Image2, Image3];
     images[current].style.opacity = 1;
     captions[current].style.opacity = 1;
   }, 6000);
+
+  
