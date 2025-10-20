@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ResQue HomePage</title>
     <script src="https://kit.fontawesome.com/c99f400fec.js" crossorigin="anonymous"></script>
-    <link href="src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[rgb(255,245,245)]">
     <!-- header Section -->
     <header class="bg-[rgb(255,245,245)] shadow-md">
         <nav class="flex items-center justify-between px-8 py-4">
@@ -69,9 +69,9 @@
         <h2 class="font-bold text-6xl mb-10 text-[rgb(139,0,0)]">Stuck on the road or at home?</h2>
         <p class="font-semibold text-2xl">Get a mechanic anywhere with ResqMe.</p>
         <p class="font-semibold text-2xl mb-10">Keep it shining with our car washers.</p>
-        <div class="flex flex-col sm:flex-row justify-center mb-25 gap-4">
-            <button class="bg-[rgb(139,0,0)] px-6 py-3 rounded-lg text-white font-bold shadow-md hover:bg-[rgb(255,0,0)] hover:scale-105 transition-all duration-300 ease-in-out">Get a Mechanic</button>
-            <button class="bg-[rgb(220,20,60)] px-6 py-3 rounded-lg text-white font-bold shadow-md hover:bg-[rgb(255,0,0)] hover:scale-105 transition-all duration-300 ease-in-out ">Get a Car Washers</button>
+        <div class="flex flex-col sm:flex-row justify-center mb-32 gap-4">
+            <a href="mechanics.html" class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Get a Mechanic</a>
+            <a href="washers.html" class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Get a Car Cleaner</a>
         </div>
     </div>
      <!-- hero section 2 -->
@@ -100,8 +100,10 @@
             </div>
         </div>
     </div>
-   <!-- card  
-       <div id="cards" class="flex flex-wrap gap-6 px-6 justify-center"></div> -->
+   <!-- card   -->
+       <div id="cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-6 bg-[rgb(255,245,245)]"></div>
+       <div class="flex justify-end"><a href="mechanics.html" class="pr-20 font-semibold text-[rgb(139,0,0)] hover:text-[rgb(255,0,0)] cursor pointer text-2xl"> See more <i class="fa-solid fa-arrow-right-long"></i></a></div>
+       
    
 
     

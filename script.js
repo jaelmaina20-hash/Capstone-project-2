@@ -3,6 +3,8 @@ const mobileMenu = document.getElementById('mobile-menu');
 const mechanics = document.querySelectorAll('.call-me');
 let images = document.querySelectorAll(".hero-image");
 let captions = document.querySelectorAll(".hero-caption");
+const form = document.querySelector("form");
+
 
 hamburgerMenu.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
@@ -72,6 +74,42 @@ if (total > 0) {
     });
   });
 
+fetch('data.json')
+  .then(response => response.json())
+  .then(mechanics => {
+    const container = document.getElementById('cards');
+
+
+    mechanics.forEach(mechanic => {
+      const card = document.createElement('div');
+      card.classList.add('card');
+     
+      card.innerHTML = `
+      <div class="w-full bg-[rgb(255,160,160)] rounded-lg">
+        <img class="w-50 rounded-t-lg h-50" src="${mechanic.image}" alt="${mechanic.name}">
+        <div class="p-5 flex flex-col h-full">
+          <div>
+            <h3 class="font-bold text-xl text-[rgb(139,0,0)] mb-1">${mechanic.name}</h3>
+            <p class="text-[rgb(220,20,60)] font-bold mb-1">${mechanic.type}</p>
+            <p class="text-[rgb(220,20,60)] font-bold text-sm mb-1">${mechanic.location}</p>
+            <p class="text-[rgb(220,20,60)] font-bold mt-1">Rating ${mechanic.rating}</p>
+          </div>
+          <button class="mt-4 px-3 bg-[rgb(255,0,0)] hover:bg-[rgb(220,20,60)] text-white py-2 rounded-lg font-semibold transition">
+            Call Me
+          </button>
+        </div>
+      </div>
+    `;
+      container.appendChild(card);
+    });
+  })
+  .catch(err => console.error('Error loading data:', err));
+
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault(); 
+  alert("Form submitted!");
+});
 
 
   

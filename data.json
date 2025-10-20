@@ -1,73 +1,29 @@
 [
-  {
-    "id": 1,
-    "name": "Cain Chebet",
-    "type": "mechanic",
-    "location": "Karen",
-    "rating": 4.8,
-    "status": "available",
-    "image": "src/Mechanic1.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Joy Zawadi",
-    "type": "mechanic",
-    "location": "Westlands",
-    "rating": 4.9,
-    "status": "available",
-    "image": "src/Mechanic2.jpg"
-  },
+  
   {
     "id": 3,
-    "name": "Louis Otieno",
-    "type": "mechanic",
+    "name": "Tasneem Amina",
+    "type": "Transmission Expert",
     "location": "Kiambu road",
-    "rating": 4.9,
+    "rating": 5.0,
     "status": "available",
     "image": "src/Mechanic3.jpg"
   },
   {
-    "id": 4,
-    "name": "Kevin Sitati",
-    "type": "mechanic",
-    "location": "Riveroad CBD",
-    "rating": 4.9,
-    "status": "available",
-    "image": "src/Mechanic4.jpg"
-  },
-  {
     "id": 5,
-    "name": "Grace Wamaitha",
-    "type": "mechanic",
+    "name": "Gaius Kiptoo",
+    "type": "Diagnostics",
     "location": "Kasarani",
-    "rating": 4.9,
+    "rating": 5.0,
     "status": "available",
     "image": "src/Mechanic5.jpg"
   },
   {
-    "id": 6,
-    "name": "Tasneem Mohammed",
-    "type": "mechanic ",
-    "location": "Waiyaki way",
-    "rating": 4.9,
-    "status": "available",
-    "image": "src/Mechanic6.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Salahudin Abdi",
-    "type": "mechanic",
-    "location": "Nairobi West",
-    "rating": 4.9,
-    "status": "available",
-    "image": "src/Mechanic7.jpg"
-  },
-  {
     "id": 8,
     "name": "Valentina Mwigora",
-    "type": "mechanic",
+    "type": "General Maintenance",
     "location": "Juja",
-    "rating": 4.9,
+    "rating": 4.4,
     "status": "available",
     "image": "src/Mechanic8.jpg"
   }
