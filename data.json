@@ -18,7 +18,7 @@
     "image": "src/Mechanic2.jpg"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Louis Otieno",
     "type": "mechanic",
     "location": "Kiambu road",
@@ -27,7 +27,7 @@
     "image": "src/Mechanic3.jpg"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Kevin Sitati",
     "type": "mechanic",
     "location": "Riveroad CBD",
@@ -36,7 +36,7 @@
     "image": "src/Mechanic4.jpg"
   },
   {
-    "id": 2,
+    "id": 5,
     "name": "Grace Wamaitha",
     "type": "mechanic",
     "location": "Kasarani",
@@ -45,7 +45,7 @@
     "image": "src/Mechanic5.jpg"
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "Tasneem Mohammed",
     "type": "mechanic ",
     "location": "Waiyaki way",
@@ -54,7 +54,7 @@
     "image": "src/Mechanic6.jpg"
   },
   {
-    "id": 2,
+    "id": 7,
     "name": "Salahudin Abdi",
     "type": "mechanic",
     "location": "Nairobi West",
@@ -63,7 +63,7 @@
     "image": "src/Mechanic7.jpg"
   },
   {
-    "id": 2,
+    "id": 8,
     "name": "Valentina Mwigora",
     "type": "mechanic",
     "location": "Juja",

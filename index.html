@@ -27,11 +27,11 @@
                 </li>            
                 <!-- dropdown list -->
                 <li class="relative group">
-                    <a href="services.html" 
-                        class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform"> Our Services</a>
+                    <a href="mechanics.html" 
+                        class="hover:text-[rgb(255,69,58)] hover:underline hover:scale-105 transition-all duration-300 ease-in-out transform">Mechanics</a>
                     <ul class="absolute left-0 mt-2 w-48 bg-white shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 ease-in-out z-10">                
                         <li>
-                            <a href="mechanics.html" class="block px-4 py-2 text-[rgb(139,0,0)] hover:bg-[rgb(255,245,245)] hover:text-black transition">Mechanics</a>
+                            <a href="services.html" class="block px-4 py-2 text-[rgb(139,0,0)] hover:bg-[rgb(255,245,245)] hover:text-black transition">Other Services</a>
                         </li>
                         <li>
                             <a href="washers.html" class="block px-4 py-2 text-[rgb(139,0,0)] hover:bg-[rgb(255,245,245)] hover:text-black transition">Car Washers</a>
@@ -55,8 +55,8 @@
         <div id="mobile-menu" class="hidden md:hidden bg-[rgb(255,245,245)] text-[rgb(139,0,0)] flex-col space-y-4 py-4 px-6 shadow-inner">
             <a href="index.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Home</a>
             <div class="flex flex-col space-y-2">
-                <a href="services.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Services</a>
-                <a href="mechanics.html" class="ml-4 hover:text-[rgb(255,69,58)] font-semibold block py-2">- Mechanics</a>
+                <a href="mechanics.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Mechanics</a>
+                <a href="services.html" class="ml-4 hover:text-[rgb(255,69,58)] font-semibold block py-2">- Other Services</a>
                 <a href="washers.html" class="ml-4 hover:text-[rgb(255,69,58)] font-semibold block py-2">- Car Washers</a>
             </div>
             <a href="contact.html" class="hover:text-[rgb(255,69,58)] font-semibold block py-2">Contact</a>
@@ -75,35 +75,36 @@
         </div>
     </div>
      <!-- hero section 2 -->
-      <div class="relative w-full h-[120vh] overflow-hidden">
-        <img src="src/Image2.jpg" alt="Image 1"  class="absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" id="Image1"/>
-        <img src="src/Image1.jpg" alt="Image 2"  class="absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" id="Image2">
-        <img src="src/image3.jpg" alt="Image 3" lass="absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" id="Image3">
+    <div class="relative w-full h-[130vh] overflow-hidden">
+        <img src="src/Image2.jpg" alt="Image 1"  class="hero-image absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" id="Image1"/>
+        <img src="src/Image1.jpg" alt="Image 2"  class="hero-image absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" id="Image2">
+        <img src="src/image3.jpg" alt="Image 3" lass="hero-image absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000" id="Image3">
 
-        <div class="absolute bottom-0 w-full text-center py-4 bg-white/80 backdrop-blur-sm">
-            <div id="caption1" class="transition-opacity duration-1000 opacity-100 text-[rgb(139,0,0)]">
-            <h1 class="text-2xl sm:text-3xl font-bold mb-4">Car trouble? We'll rescue you</h1>
-            <p class="text-lg sm:text-xl mb-4 font-medium">ResqMe connects you instantly to a nearby mechanic, wherever you are.</p>
-            <button class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Get Help Now</button>
+        <div class="absolute bottom-0 w-full text-center py-5 bg-white/80 backdrop-blur-sm inline-block">
+            <div id="caption1" class="hero-caption transition-opacity duration-1000 opacity-100 text-[rgb(139,0,0)]">
+                <h1 class="text-2xl sm:text-3xl font-bold mb-4">Car trouble? We'll rescue you</h1>
+                <p class="text-lg sm:text-xl mb-4 font-medium">ResqMe connects you instantly to a nearby mechanic, wherever you are.</p>
+                <a href="mechanics.html" class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Get Help Now</a>
             </div>
 
-            <div id="caption2" class="absolute inset-x-0 bottom-0 transition-opacity duration-1000 opacity-0 text-[rgb(139,0,0)]">
-            <h1 class="text-2xl sm:text-3xl font-bold mb-2">Help is just a tap away</h1>
-            <p class="text-lg sm:text-xl mb-4 font-medium">With ResqMe, you can request a certified mechanic in seconds and track their arrival in real time.</p>
-            <button class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Track My Mechanic</button>
+            <div id="caption2" class="hero-caption absolute inset-x-0 bottom-0 transition-opacity duration-1000 opacity-0 text-[rgb(139,0,0)] inline-block py-5">
+                <h1 class="text-2xl sm:text-3xl font-bold mb-2">Help is just a tap away</h1>
+                <p class="text-lg sm:text-xl mb-4 font-medium">With ResqMe, you can request a certified mechanic in seconds and track their arrival in real time.</p>
+                <a href="mechanics.html" class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Track My Mechanic</a>
             </div>
 
-            <div id="caption3" class="absolute inset-x-0 bottom-0 transition-opacity duration-1000 opacity-0 text-[rgb(139,0,0)]">
-            <h1 class="text-2xl sm:text-3xl font-bold mb-2">In the blink of an eye, ResqMe will have you smiling and back on the road.</h1>
-            <p class="text-lg sm:text-xl mb-4 font-medium">Because every driver deserves peace of mind behind the wheel!</p>
-            <button class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Book Your Service</button>
-       </div>
-  </div>
-</div>
-      </div>
+            <div id="caption3" class="hero-caption absolute inset-x-0 bottom-0 transition-opacity duration-1000 opacity-0 text-[rgb(139,0,0)] inline-block py-5 ">
+                <h1 class="text-2xl sm:text-3xl font-bold mb-2">In the blink of an eye, ResqMe will have you smiling and back on the road.</h1>
+                <p class="text-lg sm:text-xl mb-4 font-medium">Because every driver deserves peace of mind behind the wheel!</p>
+                <a href="mechanics.html" class="bg-[rgb(139,0,0)] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(255,0,0)] transition-all mb-4">Book Your Service</a>
+            </div>
+        </div>
+    </div>
+   <!-- card  
+       <div id="cards" class="flex flex-wrap gap-6 px-6 justify-center"></div> -->
+   
 
-      <body class="bg-gray-100">
-  <div id="cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6"></div>
+    
 
 <!-- footer section -->
 <footer class="bg-[rgb(255,245,245)] text-[rgb(139,0,0)] border-t-4 border-[rgb(250,128,114)] py-10 mt-10">
