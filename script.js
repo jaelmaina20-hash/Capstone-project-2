@@ -1,3 +1,5 @@
+'use strict'
+document.addEventListener('DOMContentLoaded', () => {
 const hamburgerMenu = document.getElementById('haMenu');
 const mobileMenu = document.getElementById('mobile-menu');
 const mechanics = document.querySelectorAll('.call-me');
@@ -82,7 +84,7 @@ fetch('data.json')
 
     mechanics.forEach(mechanic => {
       const card = document.createElement('div');
-      card.classList.add('card');
+      card.classList.add('cards');
      
       card.innerHTML = `
       <div class="w-full bg-[rgb(255,160,160)] rounded-lg">
@@ -100,17 +102,16 @@ fetch('data.json')
         </div>
       </div>
     `;
-      container.appendChild(card);
+    container.appendChild(card);
+    
     });
   })
   .catch(err => console.error('Error loading data:', err));
 
 
-form.addEventListener("submit", function(event) {
-  event.preventDefault(); 
-  alert("Form submitted!");
-});
 
+
+});
 
   
 
